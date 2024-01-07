@@ -1,10 +1,10 @@
-package br.com.alura.mymusics.main.models;
+package br.com.alura.mymusics.models;
 
 public class Audio {
     private String title; //titulo
     private int totalPlays; //totalReproduções
     private int totalLikes; //totalCurtidas
-    private double ratings; //classificação
+    private int ratings; //classificação
 
     public String getTitle() {
         return title;
@@ -22,7 +22,7 @@ public class Audio {
         return totalLikes;
     }
 
-    public double getRatings() {
+    public int getRatings() {
         return ratings;
     }
 

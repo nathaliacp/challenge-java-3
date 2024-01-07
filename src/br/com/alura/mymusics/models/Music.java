@@ -1,8 +1,8 @@
-package br.com.alura.mymusics.main.models;
+package br.com.alura.mymusics.models;
 
 public class Music extends Audio {
     private String album;
-    private String singer; //cantor
+    private String artist; //cantor
     private String genre; //gênero
 
     public String getAlbum() {
@@ -13,12 +13,12 @@ public class Music extends Audio {
         this.album = album;
     }
 
-    public String getSinger() {
-        return singer;
+    public String getArtist() {
+        return artist;
     }
 
-    public void setSinger(String singer) {
-        this.singer = singer;
+    public void setArtist(String artist) {
+        this.artist = artist;
     }
 
     public String getGenre() {
